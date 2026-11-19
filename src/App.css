@@ -1,38 +1,114 @@
-.App {
-  text-align: center;
+
+.titulo{
+    max-width: 50%;
+    text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.texto1{
+    max-width: 50%;
+    text-align: left;
+    margin: 10px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Logo{
+    max-width: 40%;
+    margin-left: 55%;
+    margin-top: -420px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.titulo2{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 80px;
 }
 
-.App-link {
-  color: #61dafb;
+.img1{
+   width: 500px;
+   
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Paragrafo{
+   
+   font-display: flex;
+   margin-left: 200px;
+   text-align: left;
+}
+
+.Produto1{
+   margin-left: 200px;
+}
+
+.Tudo{
+    max-width: 40%;
+}
+
+.Acao{
+    margin-left: 350px;
+    width: 100px;
+    padding: 10px;
+    font-size: 20px;
+   margin-top: 20px;
+}
+
+.Acao:hover{
+  background-color: aqua;
+  cursor: pointer;
+}
+.img2{
+    max-width: 30%;
+    margin-left: 1000px;
+    margin-top: -500px;
+    display: flex;
+}
+
+.Paragrafo2{
+    margin-left: 1000px;
+    font-size: 30px;
+}
+
+.button1{
+  margin-left: 1200px;
+  padding: 10px; 
+}
+
+.button1:hover{
+   background-color: brown;
+   cursor: pointer;
+}
+
+.TituloIphone{
+    margin-left: 230px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.App{
+    background-color: bisque;
+}
+
+.Forms{
+    text-align: center;
+    padding: 60px;
+    margin: 20px;
+}
+
+.Input{
+    width: 500px;
+    padding: 10px;
+    margin: 10px;
+    display: block;
+    margin-left: 600px;
+}
+
+.Criar{
+    margin-top: 30px;
+    padding: 10px;
+    
+}
+
+.Criar:hover{
+    background-color: blueviolet;
+    cursor: pointer;
 }
